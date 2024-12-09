@@ -36,10 +36,12 @@ A simple Todo List application built with Spring Boot and Thymeleaf. This applic
 
 2. Update the application.properties file to configure your database connection:
 
-    ```spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
+    ```
+    spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
     spring.datasource.username=your_username
     spring.datasource.password=your_password
-    spring.jpa.hibernate.ddl-auto=update```
+    spring.jpa.hibernate.ddl-auto=update
+    ```
     
 
 3. Build the project using Maven:
